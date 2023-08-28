@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Comfortaa:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Shrikhand&display=swap');
+
 
 :root {
   --primary: #dd0072;
@@ -7,7 +8,7 @@
   --secondary-button: #ffffff;
   
   --background:rgb(255, 255, 255);
-  --background-img: url(./img/code_bg_piqus_web.jpg);
+  --background-img: url(/public/herobg-light.png);
   --section-bg:rgb(255, 255, 255);
   --section-bg-alt:linear-gradient(30deg, #2f97ff 0%, #21d1db 100%);
   /* --section-bg-alt:#2f97ff; */
@@ -45,13 +46,16 @@
   --on-section-bt-top: rgba(255, 255, 255, 0.7);
 }
 
+* {
+  box-sizing:border-box;
+}
+
 html{
   scroll-behavior: smooth;
-  /* box-sizing:border-box; */
 }
 
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 15px;
 	font-weight: 200;
   background-color:var(--background);
@@ -59,14 +63,14 @@ body{
 }
 
 h1{
-	font-family: 'Baloo 2', cursive;
+	font-family: 'Inter', sans-serif;
 	font-size: 45px;
 	letter-spacing: 0px;
   margin-bottom: 40px;
 }
 
 h2{
-  font-family: 'Baloo 2', cursive;
+	font-family: 'Inter', sans-serif;
 	font-size: 25px;
   text-transform: capitalize;
 	font-weight: 400;
@@ -103,6 +107,8 @@ section{
 .wrapper > *{
   /* padding: 20px; */
   /* margin-top: 10px; */
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
 }
 
@@ -118,33 +124,33 @@ section{
 
 .btn{
   margin: 10px;
+  border: solid black 3px;
+  border-radius: 0px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .btn-primary{
-  background-color: var(--primary);
-  border-color: var(--primary);
-  color: var(--on-primary)
-}
-
-.btn-secondary-alt{
-  background-color: var(--secondary-button);
-  border-color: var(--secondary);
-  color: var(--secondary)
-}
-
-.btn-secondary-alt:hover{
-  background-color: var(--primary);
-  border-color: var(--primary);
-  color: var(--on-primary)
+  background-color: black;
+  border-color: black;
+  color: white;
 }
 
 .btn-secondary{
-  background-color: var(--secondary);
-  border-color: var(--secondary);
-  color: var(--on-primary)
+  background-color: rgba(255, 255, 255, 0);
+  border-color: black;
+  color: black;
+}
+
+
+.btn-primary:hover{
+  background-color: rgba(255, 255, 255, 0);
+  border-color: black;
+  color: black;
 }
 
 .btn-secondary:hover{
-  background-color: var(--primary);
-  border-color: var(--primary);
+  background-color: black;
+  border-color: black;
+  color: white;
 }

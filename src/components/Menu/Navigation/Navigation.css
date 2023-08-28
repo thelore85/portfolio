@@ -1,9 +1,7 @@
 /* MENU LINKS */
 .navigation {
-  display: inline-block;
   margin: 0;
   margin-top: 10px;
-  float: right;
 }
 
 .navigation a{
@@ -11,16 +9,14 @@
 }
 
 .mobile-nagvigation{
-  float:right;
-  margin-top: 12px;
+  
 }
 
 .mobile-nagvigation i{
   font-size: 21px;
-  color: gray;
+  color: rgb(0, 0, 0);
 }
 
 .canvas-navigation a{
-  display: block;
 }
 

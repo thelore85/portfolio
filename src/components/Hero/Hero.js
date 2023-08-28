@@ -5,15 +5,13 @@ const Hero = () => {
   return(
     <section id="hero">
       <div className="wrapper row vertical-align">
-        <div className="hero-content col-md-6">
-          <h1>Think Big, Think Web</h1>
-          <h2>Looking for a web developer? <br />you are in the right place!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis.</p>
-          <button type="button" className="btn btn-secondary">Free Consultancy</button>
-          <button type="button" className="btn btn-secondary-alt">Portfolio</button>
+        <div className="hero-content">
+          <h1>Keep calm and <span>develope</span> a website</h1>
+          <button type="button" className="btn btn-secondary">view portfolio</button>
+          <button type="button" className="btn btn-primary">contact</button>
         </div>
 
-        <div className="hero-image col-md-6 d-none d-md-block d-lg-block">
+        <div className="hero-image">
           {/* USING IMAGE BACKGROUND - NOT IMG TAG NEEDED */}
         </div>
       </div>

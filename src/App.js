@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Menu from './components/Menu/Menu.js';
 import Hero from './components/Hero/Hero.js';
 import Footer from './components/Footer/Footer.js';
-import Product from './components/Product/Product.js';
-import Mission from './components/Mission/Mission.js';
-import Brands from './components/Brands/Brands.js';
+import Services from './components/Services/Services.js';
+import About from './components/About/About.js';
+import Tech from './components/Tech/Tech.js';
 import ContactForm from './components/ContactForm/ContactForm.js';
 
 // css
@@ -27,10 +27,10 @@ class App extends Component{
 			<div className='app-container'>
 				<Menu />
 				<Hero />
-				<Product />
-				<Brands />
+				<Services />
+				<Tech />
+				<About />
 				<ContactForm />
-				<Mission />
 				<Footer />
 			</div>
 		)

@@ -1,0 +1,101 @@
+/* --------------------
+SERVICE SECTION  
+----------------------- */
+
+#service {
+  font-family: Inter, sans-serif;
+}
+
+
+
+/* --------------------
+SERVICE TITLE  
+----------------------- */
+
+#service .service-title > span{
+  color: #D9D9D9;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+#service .service-title p{
+  max-width: 650px;
+  margin: auto;
+  padding: 20px;
+  color: #000;
+text-align: center;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#service .service-title p > span{
+  color: #FB4D8C;
+	background-image: -webkit-linear-gradient(60deg, #2958e7, #dc1eed);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 40s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from { -webkit-filter: hue-rotate(0deg);}
+  to { -webkit-filter: hue-rotate(-360deg);}
+}
+
+
+/* --------------------
+SERVICE CARD  
+----------------------- */
+
+#service .service-card-wrapper {
+  text-align: center;
+}
+
+#service .service-card {
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
+
+#service svg{
+  position: relative;
+  top: 40px;
+}
+
+#service .service-content{
+  text-align: center;
+  background-color: rgb(225, 225, 225);
+  padding: 20px;
+  padding-top: 60px;
+  border: solid black 4px;
+}
+
+
+#service .service-content h2{
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#service .service-content p{
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  text-align: left;
+}
+
+
+
+

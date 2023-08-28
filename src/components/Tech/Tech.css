@@ -1,0 +1,91 @@
+/* --------------------
+tech SECTION  
+----------------------- */
+
+#tech {
+  font-family: Inter, sans-serif;
+  background-color: rgb(239, 239, 239);
+  padding-bottom: 10px;
+}
+
+
+
+/* --------------------
+tech TITLE  
+----------------------- */
+
+#tech .tech-title > span{
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+#tech .tech-title p{
+  max-width: 550px;
+  margin: auto;
+  padding: 20px;
+  color: #000;
+text-align: center;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#tech .tech-title p > span{
+  color: #4E49FF;
+	background-image: -webkit-linear-gradient(60deg, #2958e7, #dc1eed);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 40s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from { -webkit-filter: hue-rotate(0deg);}
+  to { -webkit-filter: hue-rotate(-360deg);}
+}
+
+
+
+/* --------------------
+tech BRANDS
+----------------------- */
+
+
+
+#tech .icon-wrapper{
+  text-align: center;
+  width: auto;
+  margin: 15px;
+  
+}
+
+#tech .icon-wrapper h2{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.748);
+}
+
+
+#tech i{
+  /* color:var(--on-section-bg-top); */
+  color: rgba(0, 0, 0, 0.748);
+  margin-bottom: 10px;
+  font-size: 55px;
+}
+
+#brands button{
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+#brands .brands-content-wrapper{
+  max-width: 300px;
+  margin-bottom: 60px;
+}
+

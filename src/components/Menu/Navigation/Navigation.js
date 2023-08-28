@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas'; // sidebar menu
 import './Navigation.css';
-import LogoutMenu from '../LogoutMenu/LogoutMenu.js';
+import MenuLink from '../MenuLink/MenuLink.js';
 
 
 const Navigation = () => {
@@ -14,7 +14,7 @@ const Navigation = () => {
   return(
     <>
     <div className="navigation 	d-none d-sm-block">
-      <LogoutMenu />
+      <MenuLink />
     </div>
 
     <div className="mobile-nagvigation d-block d-sm-none">
@@ -29,7 +29,7 @@ const Navigation = () => {
         <Offcanvas.Body>
     
         <div className="canvas-navigation">
-          <LogoutMenu />
+          <MenuLink />
         </div>
 
         </Offcanvas.Body>
