@@ -123,7 +123,7 @@ section{
 /* /////////////////////////// */
 
 .btn{
-  margin: 10px;
+  margin-right: 10px;
   border: solid black 3px;
   border-radius: 0px;
   font-weight: 600;
