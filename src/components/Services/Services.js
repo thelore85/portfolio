@@ -7,7 +7,7 @@ const Services = () => {
       <div className="wrapper">
 
           <div className="row service-title">
-            <span id='services'>Services</span>
+            <span>Services</span>
             <p >Looking for a <span>web developer</span>? you are in the right place</p>
           </div>
 

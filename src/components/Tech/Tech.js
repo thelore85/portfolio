@@ -7,7 +7,7 @@ const tech = () => {
       <div className="wrapper">
 
           <div className="row tech-title">
-            <span id='tech'>Tech</span>
+            <span>Tech</span>
             <p >The best <span>web technology</span> at your support</p>
           </div>
 

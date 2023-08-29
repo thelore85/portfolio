@@ -1,6 +1,7 @@
 #footer{
     background-color: var(--section-bg);
     min-height: 150px;
+    border-top: solid black 8px;
 }
 
 #footer .wrapper {

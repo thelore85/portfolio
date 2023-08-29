@@ -16,13 +16,12 @@ const About = () => {
         <div className="about-content-wrapper col-md-7">
 
           <div className="about-title">
-            <span id='about'>About me</span>
+            <span>About me</span>
             <p>More then <span>10 years</span> of digital experties</p>
           </div>
 
           <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis.</p>
-          <p>Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>I'm a passionate web developer and designer, dedicated to crafting digital experiences that leave a lasting impact. With a blend of creativity and technical prowess, I thrive on translating ideas into visually stunning and highly functional websites. My journey began with a fascination for user-centered design, sparking my pursuit of expertise in UX/UI.</p>
           <button type="button" className="btn btn-secondary">Download CV</button>
           <button type="button" className="btn btn-secondary">Git Hub</button>
           <button type="button" className="btn btn-primary">Whats App</button>

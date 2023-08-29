@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer.js';
 import Services from './components/Services/Services.js';
 import About from './components/About/About.js';
 import Tech from './components/Tech/Tech.js';
-import ContactForm from './components/ContactForm/ContactForm.js';
+import Projects from './components/Projects/Projects.js';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -30,7 +30,7 @@ class App extends Component{
 				<Services />
 				<Tech />
 				<About />
-				<ContactForm />
+				<Projects />
 				<Footer />
 			</div>
 		)
