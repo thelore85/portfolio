@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css';
+import aboutImage from '../../img/about.png'
+import aboutMobileImage from '../../img/about_mobile.png'
 
 const About = () => {
   return(
@@ -7,8 +9,8 @@ const About = () => {
       <div className="wrapper row vertical-align">
 
         <div className="img-container col-md-4">
-          <img className="img_desktop" src="/about.png" alt='about me'></img>
-          <img className="img_mobile" src="/about_mobile.png" alt='about me'></img>
+          <img className="img_desktop" src={aboutImage} alt='about me'></img>
+          <img className="img_mobile" src={aboutMobileImage} alt='about me'></img>
         </div>
 
         <div className="about-content-wrapper col-md-7">

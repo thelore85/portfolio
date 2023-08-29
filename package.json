@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.0",
+    "file-loader": "^6.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0"
@@ -31,6 +32,13 @@
     "webpack-dev-server": "^4.15.1"
   },
   "now": {
-    "builds": [ { "src": "webpack.config.js", "use": "@now/static-build" }]
+    "builds": [
+      {
+        "src": "webpack.config.js",
+        "use": "@now/static-build"
+      }
+    ]
   }
+
 }
+

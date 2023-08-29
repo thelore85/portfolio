@@ -15,7 +15,7 @@ const tech = () => {
           <div className="row vertical-align">
 
             <div className="icon-wrapper">
-              <i class="fab fa-js"></i>
+              <i className="fab fa-js"></i>
               <h2 className="tech-name">Javascript</h2>
             </div>
  
@@ -35,7 +35,7 @@ const tech = () => {
             </div>
 
             <div className="icon-wrapper">
-              <i class="fab fa-wordpress"></i>
+              <i className="fab fa-wordpress"></i>
               <h2 className="tech-name">Wordpress</h2>
             </div>    
 
@@ -46,7 +46,7 @@ const tech = () => {
             </div>
 
             <div className="icon-wrapper">
-            <i class="fa-solid fa-database"></i>
+            <i className="fa-solid fa-database"></i>
              <h2 className="tech-name">SQL / noSQL</h2>
             </div>
 
@@ -56,7 +56,7 @@ const tech = () => {
             </div>
 
             <div className="icon-wrapper">
-            <i class="fa-solid fa-server"></i>
+            <i className="fa-solid fa-server"></i>
              <h2 className="tech-name">Express js</h2>
             </div>
 
@@ -66,27 +66,27 @@ const tech = () => {
             </div>
 
             <div className="icon-wrapper">
-              <i class="fa-brands fa-google"></i>
+              <i className="fa-brands fa-google"></i>
               <h2 className="tech-name">Tag Manager</h2>
             </div>
 
             <div className="icon-wrapper">
-              <i class="fa-brands fa-hubspot"></i>
+              <i className="fa-brands fa-hubspot"></i>
               <h2 className="tech-name">Hubspot</h2>
             </div>
 
             <div className="icon-wrapper">
-            <i class="fa-solid fa-chart-line"></i>
+            <i className="fa-solid fa-chart-line"></i>
              <h2 className="tech-name">Google Analytics 4</h2>
             </div>
           
             <div className="icon-wrapper">
-            <i class="fa-brands fa-searchengin"></i>
+            <i className="fa-brands fa-searchengin"></i>
              <h2 className="tech-name">SEO</h2>
             </div>
 
             <div className="icon-wrapper">
-            <i class="fa-brands fa-figma"></i>
+            <i className="fa-brands fa-figma"></i>
              <h2 className="tech-name">Figma</h2>
             </div>
 

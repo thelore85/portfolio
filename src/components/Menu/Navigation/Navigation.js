@@ -18,7 +18,7 @@ const Navigation = () => {
     </div>
 
     <div className="mobile-nagvigation d-block d-sm-none">
-      <i class="fa-solid fa-bars" onClick={handleShow} ></i>
+      <i className="fa-solid fa-bars" onClick={handleShow} ></i>
     </div>
 
     {/* hidden menu - offcanvas*/}
