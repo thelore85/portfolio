@@ -1,132 +1,50 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Selector from './Selector/Selector.js';
+import ProjectList from './ProjectList/ProjectList.js'
+import { pjt } from '../../db.js';
+
 import './Projects.css';
 
-const Projects = () => {
-  return(
-    <section id="project">
-      <div className="">
+
+class Projects extends Component {
+
+  constructor(){
+    super()
+    this.state = {
+      db : pjt,
+      projectSelection : '',
+    }
+  }
+
+  onProjcetSelection = (event) => {
+    this.setState({
+      projectSelection : event.target.value
+    })
+  }
+
+  render(){
+
+    let filteredProject = 
+    this.state.db.filter( (value, index) =>{ //value represent the object of the db array
+    return value.tag.toString().includes(this.state.projectSelection)
+    })
+
+    console.log('deb filtered proj:', filteredProject)
+    console.log('deb proj db:', pjt)
 
 
-          <div className="project-title">
-            <span>Projects</span>
-            <p>My <span>portfolio</span> and <span>open-source</span> components</p>
-          </div>
 
-          <div className="project-filter">
-            <input type='serch' placeholder='select a project'></input>
-          </div>
+    return(
+      <section id="project">
+        <div className="no-wrapper">
 
-
-          {/* PROJECT CARDS */}
-          <div className="project-card-container">
- 
-
-            <div className='project-card-wrapper'>
-            <div className='project-card'>
-              <div className="project-color" style={{background: "magenta"}}></div>
-              <div className='project-card-content'>
-                <h3>Image Recognition App</h3>
-                <p>React endeavor for image recognition, I orchestrated the fusion of cutting-edge AI through APIs with a machine learning model.</p>
-              </div>
-
-              <div className='project-card-tag'>
-                  <ul>
-                    <li>#React</li>
-                    <li>#Node.js</li>
-                    <li>#Express</li>
-                    <li>#API</li>
-                    <li>#Machine-Learning</li>
-                    <li>#SQL</li>
-                  </ul>
-              </div>
-
-              <button type="button" className="btn btn-secondary"> Git Code</button>
-              <button type="button" className="btn btn-secondary">Live Code</button>
-            </div>
-            </div>
-
-            <div className='project-card-wrapper'>
-            <div className='project-card'>
-              <div className="project-color" style={{background: "magenta"}}></div>
-              <div className='project-card-content'>
-                <h3>Image Recognition App</h3>
-                <p>React endeavor for image recognition, I orchestrated the fusion of cutting-edge AI through APIs with a machine learning model.</p>
-              </div>
-
-              <div className='project-card-tag'>
-                  <ul>
-                    <li>#React</li>
-                    <li>#Node.js</li>
-                    <li>#Express</li>
-                    <li>#API</li>
-                    <li>#Machine-Learning</li>
-                    <li>#SQL</li>
-                  </ul>
-              </div>
-
-              <button type="button" className="btn btn-secondary"> Git Code</button>
-              <button type="button" className="btn btn-secondary">Live Code</button>
-            </div>
-            </div>
-
-            <div className='project-card-wrapper'>
-            <div className='project-card'>
-              <div className="project-color" style={{background: "magenta"}}></div>
-              <div className='project-card-content'>
-                <h3>Image Recognition App</h3>
-                <p>React endeavor for image recognition, I orchestrated the fusion of cutting-edge AI through APIs with a machine learning model.</p>
-              </div>
-
-              <div className='project-card-tag'>
-                  <ul>
-                    <li>#React</li>
-                    <li>#Node.js</li>
-                    <li>#Express</li>
-                    <li>#API</li>
-                    <li>#Machine-Learning</li>
-                    <li>#SQL</li>
-                  </ul>
-              </div>
-
-              <button type="button" className="btn btn-secondary"> Git Code</button>
-              <button type="button" className="btn btn-secondary">Live Code</button>
-            </div>
-            </div>
-
-            <div className='project-card-wrapper'>
-            <div className='project-card'>
-              <div className="project-color" style={{background: "magenta"}}></div>
-              <div className='project-card-content'>
-                <h3>Image Recognition App</h3>
-                <p>React endeavor for image recognition, I orchestrated the fusion of cutting-edge AI through APIs with a machine learning model.</p>
-              </div>
-
-              <div className='project-card-tag'>
-                  <ul>
-                    <li>#React</li>
-                    <li>#Node.js</li>
-                    <li>#Express</li>
-                    <li>#API</li>
-                    <li>#Machine-Learning</li>
-                    <li>#SQL</li>
-                  </ul>
-              </div>
-
-              <button type="button" className="btn btn-secondary"> Git Code</button>
-              <button type="button" className="btn btn-secondary">Live Code</button>
-            </div>
-            </div>
-
-            
-            
-
-
-          </div>
-
+            <Selector onProjcetSelection = {this.onProjcetSelection}/>
+            <ProjectList project = {filteredProject}/>
 
         </div>
-    </section>
-  )
+      </section>
+    )
+  }
 }
 
 export default Projects;

@@ -1,0 +1,16 @@
+/* --------------------
+SELECTOR INPUT
+----------------------- */
+
+.selector-wrapper{
+  margin-bottom: 60px;
+}
+
+select {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  border: solid black 4px;
+  font-size: 14px;
+}
