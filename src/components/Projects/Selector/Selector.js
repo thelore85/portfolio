@@ -10,7 +10,7 @@ const Selector = ({ onProjcetSelection }) =>{
 
     <div className="project-title">
       <span>Projects</span>
-      <p>My <span>portfolio</span> and <span>open-source</span> repository</p>
+      <p>My <span>open-source code</span> repository</p>
     </div>
 
     <div className="selector-wrapper">
