@@ -16,6 +16,7 @@ class Projects extends Component {
     }
   }
 
+
   onProjcetSelection = (event) => {
     this.setState({
       projectSelection : event.target.value
@@ -24,15 +25,11 @@ class Projects extends Component {
 
   render(){
 
+    // DATABASE FILTERED by selector selection
     let filteredProject = 
-    this.state.db.filter( (value, index) =>{ //value represent the object of the db array
+    this.state.db.filter( (value, index) =>{
     return value.tag.toString().includes(this.state.projectSelection)
     })
-
-    console.log('deb filtered proj:', filteredProject)
-    console.log('deb proj db:', pjt)
-
-
 
     return(
       <section id="project">

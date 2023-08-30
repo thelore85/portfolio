@@ -5,23 +5,23 @@
 export const pjt =[
     { 
     id: 1,
-    title: "Vocabulary APP",
-    description: "An innovative way of leartning a foraing language using the 'Vocabolary List Method'. Pisk your level and exercice the list for the week, you'll master your new vocabolary i a while!",
+    title: "Vocabulary Enhancer",
+    description: "An innovative way of learning a foraing language using the 'Vocabolary List Method'. Pick your level and exercice the list for the week, you'll master your new vocabolary i a while!",
     tech: "A react based project structured on a folder jerarquy able to scale in fucntionality and levels. It use API inheritance for words lists. This is an open source project where anyone can give its support and inhance the app",
     tag: [ 'react', 'api', 'css', ],
     color: [ 123, 231, 56],
-    gitCode: 'https://github.com',
-    gitPage: 'https://www.piqus.it'
-
+    gitCode: 'https://github.com/thelore85/project-vocabulary',
+    gitPage: 'https://thelore85.github.io/project-vocabulary/'
+    
     },
 
     { 
     id: 2,
-    title: "bg generator",
+    title: "Background Generator",
     description: 'A super handy program that makes css gradient background css easy and funny. Just pick the color from the input and copy the css code generated!',
     tech: 'A pure vanilla Javascript project. Single Html page with a classic .css and .js files conneted',
-    tag: [ 'javascript', 'css', ],
-    color: [ 132, 160, 6],
+    tag: [ 'js', 'css'],
+    color: [ 132, 160, 6 ],
     gitCode: 'https://github.com',
     gitPage: 'https://www.piqus.it'
     
@@ -29,26 +29,38 @@ export const pjt =[
 
     { 
     id: 3,
-    title: "to do list",
-    description: "Are you the kind of person that use to forget what you need while you are shopping? That's for you! Just handy 'To Do List App' to use for your daily activity.",
+    title: "Picture-in-Picture Web App",
+    description: "This project is a JavaScript application that utilizes the browser's mediaDevices web API to offer Picture-in-Picture (PiP) functionality. With this app, you can select a screen area and display it in a separate PiP window.",
     tech: 'Pure vanilla Javasctip and html css files. Managing complex data structure such as objects and array with loops and functions',
-    tag: [ 'javascript' ],
+    tag: [ 'js', 'css', 'api' ],
     color: [ 236, 23, 154],
-    gitCode: 'https://github.com',
-    gitPage: 'https://www.piqus.it'
+    gitCode: 'https://github.com/thelore85/picture-in-picture',
+    gitPage: 'https://thelore85.github.io/picture-in-picture/'
 
     },
 
     { 
     id: 4,
-    title: "Vitamine day",
+    title: "Quote Generator",
     description: "An innovative way of leartning a foraing language using the 'Vocabolary List Method'. Pisk your level and exercice the list for the week, you'll master your new vocabolary i a while!",
     tech: 'Pure vanilla Javasctip and html css files. This project use font-face and API import to gather third party data in the app',
-    tag: [ 'javascript', 'api', 'css'],
+    tag: [ 'js', 'api', 'css'],
     color: [ 12, 215, 245],
-    gitCode: 'https://github.com',
-    gitPage: 'https://www.piqus.it'
+    gitCode: 'https://github.com/thelore85/project-quote-generator',
+    gitPage: 'https://thelore85.github.io/project-quote-generator/'
     
     },
+
+    { 
+      id: 5,
+      title: "Roialty Free Image - Search Engine",
+      description: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect.",
+      tech: '',
+      tag: [ 'React', 'api', 'css' ],
+      color: [ 123, 151, 25],
+      gitCode: 'https://github.com/thelore85/project-search-engine',
+      gitPage: 'https://vercel.com/thelore85/project-search-engine'
+      
+      },
 
 ]
