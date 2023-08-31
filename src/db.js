@@ -56,7 +56,7 @@ export const pjt =[
       title: "Roialty Free Image - Search Engine",
       description: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect.",
       tech: '',
-      tag: [ 'React', 'api', 'css', 'app' ],
+      tag: [ 'react', 'api', 'css', 'app' ],
       color: [ 13, 151, 25],
       gitCode: 'https://github.com/thelore85/project-search-engine',
       gitPage: 'https://project-search-engine-six.vercel.app/'
@@ -68,7 +68,7 @@ export const pjt =[
       title: "Login component",
       description: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect.",
       tech: '',
-      tag: [ 'React', 'component'],
+      tag: [ 'react', 'component'],
       color: [ 137, 175, 205],
       gitCode: 'https://github.com/thelore85/component-login',
       gitPage: 'https://component-login.vercel.app/'
