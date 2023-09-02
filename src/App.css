@@ -8,7 +8,7 @@
   --secondary-button: #ffffff;
   
   --background:rgb(255, 255, 255);
-  --background-img: url(./img/herobg-light.png);
+  --background-img: url(/public/img/herobg-light.png);
   --section-bg:rgb(255, 255, 255);
   --section-bg-alt:linear-gradient(30deg, #2f97ff 0%, #21d1db 100%);
   /* --section-bg-alt:#2f97ff; */
@@ -32,7 +32,7 @@
   --secondary-button: #ffffff;
   
   --background: #373737;
-  --background-img: url(./img/herobg-light.png);
+  --background-img: url(/public/img/herobg-light.png);
   --section-bg:rgb(0, 0, 0);
   --section-bg-alt:#244a71;
   --section-bg-top:#ad0059;
