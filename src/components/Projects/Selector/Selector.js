@@ -16,12 +16,13 @@ const Selector = ({ onProjcetSelection }) =>{
     <div className="selector-wrapper">
       <select className="selector" onChange={onProjcetSelection}>
         <option className= "level" value="" defaultValue>All Projects</option>
-        <option className= "level" value="react">react</option>
-        <option className= "level" value="machine-learning">Machine Learning</option>
-        <option className= "level" value="css">css</option>
-        <option className= "level" value="api">API</option>
-        <option className= "level" value="sql">SQL</option>
+        <option className= "level" value="react">React.js</option>
+        <option className= "level" value="vanilla">Vanilla</option>
+        <option className= "level" value="machine-learning"> AI / Machine Learning</option>
+        <option className= "level" value="api">API integration</option>
+        <option className= "level" value="sql">Full-Stuck</option>
         <option className= "level" value="component">Components</option>
+        <option className= "level" value="template">Template</option>
       </select>
     </div>
     </div>

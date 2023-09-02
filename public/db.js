@@ -77,7 +77,7 @@ export const pjt =[
 
     { 
       id: 7,
-      title: "Template VanillaJS ",
+      title: "Template Vanilla",
       description: "This project is a Vanilla JavaScript application structured in modules and bundled using Webpack. It serves as a starting point for building web applications with Vanilla JavaScript, HTML, and CSS.",
       tech: '',
       tag: [ 'vanilla', 'template'],

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Selector from './Selector/Selector.js';
 import ProjectList from './ProjectList/ProjectList.js'
-import { pjt } from '../../db.js';
+import { pjt } from '/public/db.js';
 
 import './Projects.css';
 
