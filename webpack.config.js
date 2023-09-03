@@ -1,12 +1,15 @@
 const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const ASSET_PATH = process.env.ASSET_PATH || '/';
+
+
 module.exports ={
   mode: 'development',
 	entry:'./src/index.js',
 	output:{
 		path: path.join(__dirname, '/build'),
 		filename: 'bundle.js',
-    publicPath: 'auto',
+    publicPath: ASSET_PATH,
 	},
 	devServer:{
     compress: true,
@@ -18,7 +21,10 @@ module.exports ={
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
 	plugins:[
-		new HTMLWebpackPlugin({ template: './src/index.html'})
+		new HTMLWebpackPlugin({ template: './src/index.html'}),
+    new webpack.DefinePlugin({
+      'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
+    }),
 	],
 	module: {
 		rules: [
