@@ -19,7 +19,7 @@ about IMAGE
 
 #about img{
   width: 100%;
-  border: solid black 6px;
+  border: solid black 8px;
 }
 
 @media only screen and (max-width: 755px) {

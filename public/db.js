@@ -19,7 +19,7 @@ export const pjt =[
     title: "Face Recognition",
     description: 'A super handy program that makes css gradient background css easy and funny. Just pick the color from the input and copy the css code generated!',
     tag: [ 'web-app', 'js', 'app', 'machine-learning', 'api', 'react', 'sql'],
-    color: [ 132, 160, 6 ],
+    color: [ 232, 130, 90 ],
     gitCode: 'https://github.com/thelore85/project-face-recognition',
     gitPage: 'https://component-login.vercel.app/'
     
@@ -53,7 +53,7 @@ export const pjt =[
       description: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect.",
       tech: '',
       tag: [ 'web-app', 'react', 'api', 'css'],
-      color: [ 13, 151, 25],
+      color: [ 13, 151, 125],
       gitCode: 'https://github.com/thelore85/project-search-engine',
       gitPage: 'https://project-search-engine-six.vercel.app/'
       
@@ -80,6 +80,18 @@ export const pjt =[
       color: [ 3, 50, 130],
       gitCode: 'https://github.com/thelore85/template-vanilla',
       gitPage: 'https://template-vanilla.vercel.app/'
+      
+    },
+
+    { 
+      id: 8,
+      title: "Server Node/Express",
+      description: "An Express.js server management, Knex for database configuration, and PostgreSQL as the underlying database. This template includes password secure user authentication.",
+      tech: '',
+      tag: [ 'express', 'sql', 'template', 'server', 'node'],
+      color: [ 173, 59, 75],
+      gitCode: 'https://github.com/thelore85/server-vercel',
+      gitPage: '',
       
     },
 

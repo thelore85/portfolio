@@ -17,12 +17,12 @@ const Card = ({ id, title, description, color, gitCode, gitPage, tag }) => {
 
         <div className='card-tag'>
           <ul>
-            { tag.forEach((el, i) => { return <li key={id}>{el}</li> })  }
+            { tag.forEach((el, i) => { return <li key={id}>{el}</li> }) }
           </ul>
         </div>
 
-        <a className="btn btn-secondary" href={gitCode} target="_blank"> Git Code</a>
-        <a className="btn btn-secondary" href={gitPage} target="_blank">Live Code</a>
+        {gitCode !== '' && ( <a className="btn btn-secondary" href={gitCode} target="_blank">Git Code</a>)}
+        {gitPage !== '' && ( <a className="btn btn-secondary" href={gitPage} target="_blank">Live Code</a>)}
 
       </div>
     </div>

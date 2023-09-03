@@ -17,7 +17,7 @@ const ProjectList = ({ project }) => {
             color = {project[i].color}
             tag = {project[i].tag}
             gitCode = {project[i].gitCode}
-            gitPage = {project[i].gitPage}
+            gitPage={project[i].gitPage !== '' ? project[i].gitPage : ''}
           /> )
         
         })

@@ -19,7 +19,7 @@ const Selector = ({ onProjcetSelection }) =>{
         <option className= "level" value="web-app">Web Application</option>
         <option className= "level" value="machine-learning"> AI / Machine Learning</option>
         <option className= "level" value="api">API integration</option>
-        <option className= "level" value="sql">Back-end</option>
+        <option className= "level" value="sql">Back-End & DB</option>
         <option className= "level" value="css">CSS & Typografy</option>
         <option className= "level" value="component">Components</option>
         <option className= "level" value="template">Templates</option>

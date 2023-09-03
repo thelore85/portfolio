@@ -22,9 +22,6 @@ module.exports ={
   },
 	plugins:[
 		new HTMLWebpackPlugin({ template: './src/index.html'}),
-    new webpack.DefinePlugin({
-      'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
-    }),
 	],
 	module: {
 		rules: [

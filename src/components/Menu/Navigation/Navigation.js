@@ -24,7 +24,7 @@ const Navigation = () => {
     {/* hidden menu - offcanvas*/}
     <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Menu</Offcanvas.Title>
+          <Offcanvas.Title>PIQUS.io</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
     

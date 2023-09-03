@@ -11,6 +11,9 @@ select {
   margin: auto;
   width: 100%;
   max-width: 400px;
-  border: solid black 4px;
+  height: 45 px;
+  padding: 5px;
+  border: solid black 6px;
   font-size: 14px;
+  color: black;
 }
