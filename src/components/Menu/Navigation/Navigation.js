@@ -14,7 +14,7 @@ const Navigation = () => {
   return(
     <>
     <div className="navigation 	d-none d-sm-block">
-      <MenuLink />
+      <MenuLink closeMobileMenu = { handleClose } />
     </div>
 
     <div className="mobile-nagvigation d-block d-sm-none">
@@ -29,7 +29,7 @@ const Navigation = () => {
         <Offcanvas.Body>
     
         <div className="canvas-navigation">
-          <MenuLink />
+          <MenuLink closeMobileMenu = { handleClose }/>
         </div>
 
         </Offcanvas.Body>
