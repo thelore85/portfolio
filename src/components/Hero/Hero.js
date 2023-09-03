@@ -8,8 +8,8 @@ const Hero = () => {
       
         <div className="hero-content">
           <h1>Keep calm and <span>develope</span> a website</h1>
-          <button type="button" className="btn btn-secondary">view portfolio</button>
-          <button type="button" className="btn btn-primary">contact</button>
+          <a type="button" className="btn btn-secondary" href="#project">view portfolio</a>
+          <a type="button" className="btn btn-primary" href="#about">contact me</a>
         </div>
 
       </div>
