@@ -50,10 +50,10 @@ about TITLE
   margin-bottom: 30px;
 }
 
-#about .about-title > span{
+#about .ancor{
+  display: block;
   color: #D9D9D9;
-  background-color: white;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -84,9 +84,8 @@ text-align: left;
   to { -webkit-filter: hue-rotate(-360deg);}
 }
 
-
 #about .about-content p{
-  color: #000;
+color: black;
 font-family: Inter;
 font-size: 13px;
 font-style: normal;
@@ -96,5 +95,36 @@ letter-spacing: 0.0875rem;
 margin-bottom: 30px;
 }
 
+
+/* --------------------
+about EDUCATION  
+----------------------- */
+
+#about .about-education{
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin-top: 20px;
+}
+
+#about .about-education .ancor{
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+#about .about-education img{
+  border: none;
+  padding-right: 5px;
+  width: 16%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 755px) {
+  #about .about-education img{
+    width: 33%;
+  }
+}
 
 
