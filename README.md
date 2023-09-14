@@ -1,60 +1,54 @@
-# Portfolio Website
+# React Template Project
 
-This project is a web application built using React and Node.js. It serves as a portfolio website for web developers and creatives to showcase their work, skills, and services online.
+This project is a starter template for building React applications. It provides a structured foundation for creating web applications using React.js.
 
-## How It Works
+## Overview
 
-The portfolio website consists of several sections:
+This React template project is designed to streamline the development process for React applications. It includes essential tools and configurations to help you get started quickly.
 
-1. **Hero Section**: This section provides a visually appealing introduction to the portfolio. It typically contains a background image or video and a brief tagline.
+## Features
 
-2. **Skills**: In this section, the web developer or creative can list their technical skills and competencies. It often includes technologies, programming languages, and tools they are proficient in.
+- **React**: A powerful JavaScript library for building user interfaces.
+- **Webpack**: Bundles and optimizes your code for production.
+- **Babel**: Transpiles modern JavaScript so you can use the latest features.
+- **ESLint**: Enforces code quality and style guidelines.
+- **CSS Modules**: Allows you to write scoped CSS for your components.
 
-3. **Services Offered**: The portfolio highlights the services offered by the individual, such as web development, graphic design, or content creation. Each service is described in detail.
+## Getting Started
 
-4. **About Me**: This section gives visitors insight into the person behind the portfolio. It may include a biography, career highlights, and personal interests.
+Follow these steps to set up and start working with the template:
 
-5. **Contact**: The contact section provides multiple ways for visitors to get in touch with the portfolio owner, such as a contact form, email address, or links to social media profiles.
+1. Clone this repository: `git clone https://github.com/thelore85/template-react.git`
+2. Navigate to the project directory: `cd template-react`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and go to [http://localhost:1954](http://localhost:1954) to see the template in action.
 
-6. **Showcase Projects**: One of the central features of the portfolio is the showcase of projects. Projects are displayed in a visually appealing manner, often with images, descriptions, and links. Users can filter projects dynamically, making it easy to find specific examples of work.
+## Folder Structure
 
-## Requirements
+- `src/`: Contains your application's source code.
+  - `components/`: Place your React components here.
+  - `styles/`: Store your CSS or SCSS files here.
+- `public/`: Contains static assets like HTML files and images.
 
-To run this portfolio website, you need the following:
+## Contributing
 
-- A modern web browser.
-- Node.js installed on your computer.
-- The project's source code.
+We welcome contributions from the community. If you'd like to contribute to this template project, please follow these steps:
 
-## How to Use the Code
-
-The main codebase for this project is structured as follows:
-
-- React components: Located in the `/src/components` directory, these components define the various sections of the portfolio, such as the hero, skills, and projects.
-
-- Node.js server: The portfolio may include a Node.js server for backend functionality, such as handling contact form submissions. Server files are typically located in a `/server` directory.
-
-- HTML and CSS: The HTML structure and CSS styles for the portfolio are defined in files like `index.html` and `styles.css`.
-
-- Showcase Projects Data: Project data, such as titles, descriptions, and images, may be stored in a structured format, often as JSON objects.
-
-To set up and run the project locally, follow these steps:
-
-1. Clone the repository using the `git clone` command or download the source code as a ZIP file.
-
-2. Install the required Node.js packages by running `npm install` in the project's root directory.
-
-3. Start the development server using `npm start`. This will launch the portfolio website locally, allowing you to view and test it in your browser.
-
-4. Customize the portfolio by modifying the content, styles, and functionality according to your preferences. Update the React components, styles, and project data as needed.
-
-## Contributions
-
-Contributions to this project are welcome! If you have suggestions, improvements, or new features to add, please open a Pull Request. We appreciate your input and help in making this portfolio template better.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push your branch to your fork: `git push origin feature-name`
+5. Open a Pull Request on GitHub, and describe your changes in detail.
 
 ## License
 
-This project is open-source and licensed under the MIT License. You can find detailed licensing information in the `LICENSE.md` file.
+This template project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+---
+
+**Author**: Piqus
+**Website**: [piqus.it](https://piqus.it)
 
 ---
 

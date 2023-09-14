@@ -95,4 +95,16 @@ export const pjt =[
       
     },
 
+    { 
+      id: 9,
+      title: "React Template",
+      description: "Starter template for building React applications. It provides a structured foundation for creating web applications using React.js.",
+      tech: '',
+      tag: [ 'template'],
+      color: [ 199, 159, 85],
+      gitCode: 'https://github.com/thelore85/template-react',
+      gitPage: 'https://template-react-xi.vercel.app/',
+      
+    },
+
 ]

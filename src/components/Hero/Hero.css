@@ -1,17 +1,17 @@
 #hero {
   z-index:1;
   position: relative;
-  background-color: var(--section-bg);
+  background-color: white;
   padding-top: 120px;
   padding-bottom:60px;
   min-height: 100vh;
 
-  background-image: var(--background-img);
+  background-image: url(/public/img/herobg-white.png);
   background-position: right; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
 
-  border: solid black 9px;
+  border: solid black 27px;
 }
 
 #hero h1{
