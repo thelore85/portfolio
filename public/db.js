@@ -76,7 +76,7 @@ export const pjt =[
       title: "Vanilla JS template",
       description: "This project is a Vanilla JavaScript application structured in modules and bundled using Webpack. It serves as a starting point for building web applications with Vanilla JavaScript, HTML, and CSS.",
       tech: '',
-      tag: [ 'template', 'javascript']
+      tag: [ 'template', 'javascript'],
       color: [ 3, 50, 130],
       gitCode: 'https://github.com/thelore85/template-vanilla',
       gitPage: 'https://template-vanilla.vercel.app/'
