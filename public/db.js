@@ -106,5 +106,16 @@ export const pjt =[
       gitPage: 'https://template-react-xi.vercel.app/',
       
     },
+    { 
+      id: 10,
+      title: "React Template",
+      description: "This project is a React component that enables dark mode functionality and utilizes local storage to save user preferences. It's designed to be easily integrated into your React applications.",
+      tech: '',
+      tag: [ 'component', 'react'],
+      color: [ 79, 190, 185],
+      gitCode: 'https://github.com/thelore85/component-dark-mode',
+      gitPage: 'https://component-dark-mode.vercel.app/',
+      
+    },
 
 ]
