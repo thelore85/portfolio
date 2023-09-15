@@ -108,7 +108,7 @@ export const pjt =[
     },
     { 
       id: 10,
-      title: "React Template",
+      title: "Dark-mode Component",
       description: "This project is a React component that enables dark mode functionality and utilizes local storage to save user preferences. It's designed to be easily integrated into your React applications.",
       tech: '',
       tag: [ 'component', 'react'],
