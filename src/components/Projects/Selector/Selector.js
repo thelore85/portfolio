@@ -17,8 +17,7 @@ const Selector = ({ onProjcetSelection }) =>{
       <select className="selector" onChange={onProjcetSelection}>
         <option className= "level" value="" defaultValue>All Projects</option>
         <option className= "level" value="react">Web Projects</option>
-        <option className= "level" value="api"> AI / API integration</option>
-        <option className= "level" value="backend">Server and Data Base</option>
+        <option className= "level" value="api"> API and Machine Learning</option>
         <option className= "level" value="css">Design System and Typografy</option>
         <option className= "level" value="component">Components</option>
         <option className= "level" value="template">Templates</option>
