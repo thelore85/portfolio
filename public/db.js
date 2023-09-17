@@ -7,8 +7,8 @@ export const pjt =[
     id: 1,
     title: "Vocabulary Enhancer",
     description: "An innovative way of learning a foraing language using the 'Vocabolary List Method'. Pick your level and exercice the list for the week, you'll master your new vocabolary i a while!",
-    tech: [ 'react', 'webpack' ],
-    tag: [ 'react' ],
+    tech: [ 'react', 'webpack', 'node'],
+    tag: [ 'project' ],
     color: [ 123, 231, 56],
     gitCode: 'https://github.com/thelore85/project-vocabulary',
     gitPage: 'https://thelore85.github.io/project-vocabulary/'
@@ -19,8 +19,8 @@ export const pjt =[
     id: 2,
     title: "Face Recognition",
     description: 'A super handy program that makes css gradient background css easy and funny. Just pick the color from the input and copy the css code generated!',
-    tech: [ 'react', 'api', 'machine-learning', 'webpack'],
-    tag: [ 'react', 'api',],
+    tech: [ 'react','machine-learning', 'webpack'],
+    tag: [ 'project', 'api',],
     color: [ 232, 130, 90 ],
     gitCode: 'https://github.com/thelore85/project-face-recognition',
     gitPage: 'https://component-login.vercel.app/'
@@ -31,8 +31,8 @@ export const pjt =[
     id: 3,
     title: "Picture-in-Picture",
     description: "This project is a JavaScript application that utilizes the browser's mediaDevices web API to offer Picture-in-Picture (PiP) functionality. With this app, you can select a screen area and display it in a separate PiP window.",
-    tech: [ 'react', 'web-api', 'javascript' ],
-    tag: [ 'react', 'api', 'javascript' ],
+    tech: [ 'web-api', 'javascript' ],
+    tag: [ 'api', ],
     color: [ 236, 23, 154],
     gitCode: 'https://github.com/thelore85/picture-in-picture',
     gitPage: 'https://thelore85.github.io/picture-in-picture/'
@@ -44,7 +44,7 @@ export const pjt =[
     title: "Quote Generator",
     description: "An innovative way of leartning a foraing language using the 'Vocabolary List Method'. Pisk your level and exercice the list for the week, you'll master your new vocabolary i a while!",
     tech: ['javascrpit', 'css', 'api'],
-    tag: ['css', 'api'],
+    tag: ['api','style'],
     color: [ 12, 215, 24],
     gitCode: 'https://github.com/thelore85/project-quote-generator',
     gitPage: 'https://thelore85.github.io/project-quote-generator/'
@@ -55,8 +55,8 @@ export const pjt =[
       id: 5,
       title: "Images Search Engine",
       description: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect.",
-      tech: ['react','webpack', 'api'],
-      tag: [ 'web-app', 'react', 'api'],
+      tech: ['react','webpack', 'api', 'node'],
+      tag: [ 'project'],
       color: [ 13, 151, 125],
       gitCode: 'https://github.com/thelore85/project-search-engine',
       gitPage: 'https://project-search-engine-six.vercel.app/'
@@ -68,7 +68,7 @@ export const pjt =[
       title: "Login component",
       description: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect.",
       tech: ['reacat', 'webpack', 'knex', 'PostgreSQL'],
-      tag: [ 'react', 'component'],
+      tag: [ 'component'],
       color: [ 137, 175, 205],
       gitCode: 'https://github.com/thelore85/component-login',
       gitPage: 'https://component-login.vercel.app/'
@@ -77,10 +77,10 @@ export const pjt =[
 
     { 
       id: 7,
-      title: "Vanilla JS template",
+      title: "JS template - vanilla",
       description: "This project is a Vanilla JavaScript application structured in modules and bundled using Webpack. It serves as a starting point for building web applications with Vanilla JavaScript, HTML, and CSS.",
-      tech: ['javascript'],
-      tag: [ 'template', 'javascript'],
+      tech: ['javascript', 'css', 'html'],
+      tag: [ 'template'],
       color: [ 3, 50, 130],
       gitCode: 'https://github.com/thelore85/template-vanilla',
       gitPage: 'https://template-vanilla.vercel.app/'
@@ -91,8 +91,8 @@ export const pjt =[
       id: 8,
       title: "Server Node/Express template",
       description: "An Express.js server management, Knex for database configuration, and PostgreSQL as the underlying database. This template includes password secure user authentication.",
-      tech: ['express', 'node.js', 'PostgreSQL'],
-      tag: [ 'backend', 'template'],
+      tech: ['express', 'node.js', 'PostgreSQL', 'knex'],
+      tag: [ 'template'],
       color: [ 173, 59, 75],
       gitCode: 'https://github.com/thelore85/server-vercel',
       gitPage: '',
@@ -101,7 +101,7 @@ export const pjt =[
 
     { 
       id: 9,
-      title: "React Vanilla Template",
+      title: "React Template - Vanilla",
       description: "Starter template for building React applications. It provides a structured foundation for creating web applications using React.js.",
       tech: ['javascrpit', 'html', 'css'],
       tag: [ 'template'],
@@ -115,7 +115,7 @@ export const pjt =[
       title: "Dark-mode Component",
       description: "This project is a React component that enables dark mode functionality and utilizes local storage to save user preferences. It's designed to be easily integrated into your React applications.",
       tech: ['react', 'webpack'],
-      tag: [ 'component', 'react'],
+      tag: [ 'component'],
       color: [ 79, 190, 185],
       gitCode: 'https://github.com/thelore85/component-dark-mode',
       gitPage: 'https://component-dark-mode.vercel.app/',
@@ -126,7 +126,7 @@ export const pjt =[
       title: "Menu Navigation component",
       description: "This Component is designed to simplify navigation in your applications. It offers a convenient way to manage navigation between different parts of your app.",
       tech: ['react', 'webpak'],
-      tag: [ 'component', 'react'],
+      tag: [ 'component'],
       color: [ 137, 98, 195],
       gitCode: 'https://github.com/thelore85/component-navigation',
       gitPage: 'https://component-navigation-two.vercel.app/',
