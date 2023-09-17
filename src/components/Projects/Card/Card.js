@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 
-const Card = ({ id, title, description, color, gitCode, gitPage, tag }) => {
+const Card = ({ id, title, description, color, gitCode, gitPage, tag, tech }) => {
   
 
   return(
@@ -17,7 +17,7 @@ const Card = ({ id, title, description, color, gitCode, gitPage, tag }) => {
 
         <div className='card-tag'>
           <ul>
-            { tag.forEach((el, i) => { return <li key={id}>{el}</li> }) }
+            { tech.map((el, i) => { return <li key={i}>#{el}</li> }) }
           </ul>
         </div>
 

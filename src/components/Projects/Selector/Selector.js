@@ -4,9 +4,6 @@ import './Selector.css';
 
 const Selector = ({ onProjcetSelection, projectSelection }) =>{
 
-  console.log('test', projectSelection)
-
-
   return(
 
   <section id='selector'>

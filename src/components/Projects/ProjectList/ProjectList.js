@@ -16,6 +16,7 @@ const ProjectList = ({ project }) => {
             description = {project[i].description}
             color = {project[i].color}
             tag = {project[i].tag}
+            tech = {project[i].tech}
             gitCode = {project[i].gitCode}
             gitPage={project[i].gitPage !== '' ? project[i].gitPage : ''}
           /> )
