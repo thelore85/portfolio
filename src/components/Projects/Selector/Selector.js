@@ -2,7 +2,11 @@ import React from 'react';
 import './Selector.css';
 
 
-const Selector = ({ onProjcetSelection }) =>{
+const Selector = ({ onProjcetSelection, projectSelection }) =>{
+
+  console.log('test', projectSelection)
+
+
   return(
 
   <section id='selector'>
@@ -14,14 +18,16 @@ const Selector = ({ onProjcetSelection }) =>{
     </div>
 
     <div className="selector-wrapper">
-      <select className="selector" onChange={onProjcetSelection}>
-        <option className= "level" value="" defaultValue>All Projects</option>
+
+      <select className="selector" onChange={onProjcetSelection} value={projectSelection}>    
+        <option className= "level" value="" >All Project</option>
         <option className= "level" value="project">Web Projects</option>
         <option className= "level" value="api"> API and Machine Learning</option>
         <option className= "level" value="style">Design System and Typografy</option>
         <option className= "level" value="component">Components</option>
         <option className= "level" value="template">Templates</option>
       </select>
+
     </div>
     </div>
   </section>
