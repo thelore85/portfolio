@@ -124,11 +124,11 @@ export const pjt =[
     { 
       id: 11,
       title: "Menu Navigation component",
-      description: "This React Navigation Component is designed to simplify navigation in your React applications. It offers a convenient way to manage navigation between different parts of your app, enhancing the user experience.",
+      description: "This Component is designed to simplify navigation in your applications. It offers a convenient way to manage navigation between different parts of your app.",
       tech: ['react', 'webpak'],
       tag: [ 'component', 'react'],
       color: [ 137, 98, 195],
-      gitCode: 'https://github.com/thelore85/component-dark-mode',
+      gitCode: 'https://github.com/thelore85/component-navigation',
       gitPage: 'https://component-navigation-two.vercel.app/',
       
     },
