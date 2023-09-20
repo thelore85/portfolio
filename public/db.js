@@ -130,7 +130,16 @@ export const pjt =[
       color: [ 137, 98, 195],
       gitCode: 'https://github.com/thelore85/component-navigation',
       gitPage: 'https://component-navigation-two.vercel.app/',
-      
+    },
+    { 
+      id: 12,
+      title: "Marriage Web Invite",
+      description: "The Interactive Wedding Invitation project is a single page web application designed to transform a couple's wedding invitation into a memorable and engaging experience.",
+      tech: ['react', 'next.js', 'node.js'],
+      tag: [ 'project'],
+      color: [ 107, 190, 230],
+      gitCode: 'https://github.com/thelore85/project-marriage-ste',
+      gitPage: 'https://project-marriage-ste.vercel.app/',
     },
 
 ]
