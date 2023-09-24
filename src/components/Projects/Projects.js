@@ -17,7 +17,6 @@ class Projects extends Component {
   }
 
   componentDidMount(){
-
     // Personalized url filtering
     var url = window.location.search;
     var urlParams = new URLSearchParams(url);
@@ -29,7 +28,6 @@ class Projects extends Component {
         projectSelection: filter,
       })
     }
-
   }
 
   onProjcetSelection = (event) => {
