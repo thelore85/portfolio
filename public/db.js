@@ -141,5 +141,15 @@ export const pjt =[
       gitCode: 'https://github.com/thelore85/project-marriage-ste',
       gitPage: 'https://project-marriage-ste.vercel.app/',
     },
+    { 
+      id: 13,
+      title: "Landing Page Component - Next.js",
+      description: "Landing Page Component developed using Next.js and React, it offers modularity, performance optimization, and mobile responsiveness, ensuring a seamless user experience.",
+      tech: ['react', 'next.js', 'node.js'],
+      tag: [ 'component'],
+      color: [ 210, 90, 190],
+      gitCode: 'https://github.com/thelore85/component-landing-next',
+      gitPage: 'https://component-landing-next.vercel.app/',
+    },
 
 ]
