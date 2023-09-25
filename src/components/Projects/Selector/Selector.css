@@ -34,7 +34,7 @@ SELECTOR INPUT
 }
 
 .arrow{
-  animation: wave 2s linear infinite; /* Imposta la durata dell'animazione e il tipo di animazione */
+  animation: wave 1s linear infinite; /* Imposta la durata dell'animazione e il tipo di animazione */
 }
 
 
@@ -44,6 +44,6 @@ SELECTOR INPUT
     transform: translateX(0); /* Nessuna traslazione all'inizio e alla fine */
   }
   50% {
-    transform: translateX(10%); /* Traslazione verso destra al massimo a metà dell'animazione */
+    transform: translateX(20%); /* Traslazione verso destra al massimo a metà dell'animazione */
   }
 }
