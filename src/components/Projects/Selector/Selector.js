@@ -20,7 +20,7 @@ const Selector = ({ onProjcetSelection, projectSelected }) =>{
         <path d="M27 11.5L67.5 30L5 54" stroke="black" stroke-width="25"/>
       </svg> */}
 
-      <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="90" height="63" viewBox="0 0 90 63" fill="none">
+      <svg className="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 63" fill="none">
         <path d="M4 53L28.5 45M28.5 45L61.5 29L17 16L28.5 45Z" stroke="black" strokeWidth="20"/>
       </svg>
 

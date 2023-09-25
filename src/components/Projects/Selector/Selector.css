@@ -13,6 +13,8 @@ SELECTOR INPUT
 
 
 .selector-wrapper{
+  position: relative;
+  left: -30px;
   display: flex;
   margin-bottom: 60px;
   justify-content: center;
@@ -22,7 +24,7 @@ SELECTOR INPUT
 .selector{
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 250px;
   padding: 5px;
   border: solid black 6px;
   font-size: 12px;
@@ -34,6 +36,7 @@ SELECTOR INPUT
 }
 
 .arrow{
+  width: 80px;
   animation: wave 1s linear infinite; /* Imposta la durata dell'animazione e il tipo di animazione */
 }
 
@@ -45,5 +48,12 @@ SELECTOR INPUT
   }
   50% {
     transform: translateX(20%); /* Traslazione verso destra al massimo a metà dell'animazione */
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .arrow{
+    width: 50px;
   }
 }
