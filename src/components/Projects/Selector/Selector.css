@@ -2,18 +2,48 @@
 SELECTOR INPUT
 ----------------------- */
 
-.selector-wrapper{
-  margin-bottom: 60px;
+
+#project .project-title {
+  text-align: center;
+  display: block;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
-select {
-  display: inline-block;
-  margin: auto;
+
+.selector-wrapper{
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.selector{
+  display: block;
   width: 100%;
   max-width: 400px;
-  height: 45 px;
   padding: 5px;
   border: solid black 6px;
-  font-size: 14px;
+  font-size: 12px;
   color: black;
+  margin: 0px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 50px;
+}
+
+.arrow{
+  animation: wave 2s linear infinite; /* Imposta la durata dell'animazione e il tipo di animazione */
+}
+
+
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateX(0); /* Nessuna traslazione all'inizio e alla fine */
+  }
+  50% {
+    transform: translateX(10%); /* Traslazione verso destra al massimo a metà dell'animazione */
+  }
 }

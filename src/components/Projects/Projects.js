@@ -12,7 +12,7 @@ class Projects extends Component {
     super()
     this.state = {
       db : pjt,
-      projectSelection : '',
+      projectSelected : '',
     }
   }
 
@@ -47,7 +47,7 @@ class Projects extends Component {
       <section id="project">
         <div className="no-wrapper">
 
-            <Selector onProjcetSelection = {this.onProjcetSelection} projectSelection = { this.state.projectSelection}/>
+            <Selector onProjcetSelection = {this.onProjcetSelection} projectSelected = { this.state.projectSelection}/>
             <ProjectList project = {filteredProject}/>
 
         </div>

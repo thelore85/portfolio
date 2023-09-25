@@ -1,7 +1,11 @@
 #project {
   text-align: center;
+  border: solid 20px black;
+  background-image: url(/public/img/herobg-pink.jpg);
+  background-size:cover;
+  background-position: top;
+  min-height: 90vh
 }
-
 
 
 /* --------------------

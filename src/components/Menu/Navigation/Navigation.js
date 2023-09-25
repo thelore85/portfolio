@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas'; // sidebar menu
 import './Navigation.css';
 import MenuLink from '../MenuLink/MenuLink.js';
+import Logo from '../Logo/Logo.js'
 
 
 const Navigation = () => {
@@ -24,7 +25,9 @@ const Navigation = () => {
     {/* hidden menu - offcanvas*/}
     <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>PIQUS.io</Offcanvas.Title>
+          <Offcanvas.Title>
+            <Logo />
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
     

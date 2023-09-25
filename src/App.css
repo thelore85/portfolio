@@ -118,6 +118,7 @@ section{
   background-color: black;
   border-color: black;
   color: white;
+  border-radius: 40px;
 }
 
 .btn-secondary{
