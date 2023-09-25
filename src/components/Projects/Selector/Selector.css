@@ -14,7 +14,7 @@ SELECTOR INPUT
 
 .selector-wrapper{
   position: relative;
-  left: -30px;
+  left: -20px;
   display: flex;
   margin-bottom: 60px;
   justify-content: center;
