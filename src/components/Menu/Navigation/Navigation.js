@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas'; // sidebar menu
 import './Navigation.css';
 import MenuLink from '../MenuLink/MenuLink.js';
-import Logo from '../Logo/Logo.js'
+import Logo from '../Logo/Logo.js';
 
 
 const Navigation = () => {

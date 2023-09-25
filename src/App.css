@@ -61,15 +61,16 @@ h2{
 }
 
 a{
-  color: var(--secondary);
+  color: black;
   font-weight: 400;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover{
-  color: var(--primary);
-  text-decoration: underline;
-  transition: 1000ms;
+  color: var(--secondary);
+  text-decoration:none;
+  transition: 500ms;
 }
 
 section{
