@@ -4,7 +4,7 @@
   background-color: white;
   padding-top: 120px;
   padding-bottom:60px;
-  min-height: 90vh;
+  min-height: 100vh;
 
   background-image: url(/public/img/herobg-white.png);
   background-position: right; /* Center the image */
@@ -54,6 +54,10 @@
   #hero h1{
     font-size: 70px;
     line-height: 70px;
+  }
+
+  #hero{
+    min-height: 95vh;
   }
 }
 
