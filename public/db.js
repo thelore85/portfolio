@@ -147,6 +147,26 @@ export const pjt =[
       gitCode: 'https://github.com/thelore85/project-promo-code',
       gitPage: 'https://project-promo-code.vercel.app/',
     },
+    { 
+      id: 15,
+      title: "Ecommerce Dropshipping",
+      description: "Ecommerce venture built on the WordPress and WooCommerce platform. This project revolves around a dropshipping business model, allowing for efficient product sourcing and delivery. The website seamlessly integrates with the secure payment gateway provided by Stripe.",
+      tech: ['wordpress', 'woocommerce', 'stripe', 'cpanel', 'dropshipping', 'ecommerce'],
+      tag: [ 'project'],
+      color: [ 97, 220, 183],
+      gitCode: '',
+      gitPage: 'https://www.durasvin.com',
+    },
+    { 
+      id: 16,
+      title: "Fisioterapy studio",
+      description: "xplore my web portfolio featuring a WordPress website designed for a Milan-based physiotherapy studio. This SEO-friendly site seamlessly syncs with the studio's Google Calendar, facilitating hassle-free appointment bookings through the integrated form.",
+      tech: ['wordpress', 'seo', 'api', 'cpanel'],
+      tag: [ 'project'],
+      color: [ 175, 90, 210],
+      gitCode: '',
+      gitPage: 'https://www.formfisioterapia.it/',
+    },
     
   ]
 
