@@ -1,20 +1,6 @@
-
-
 // note: because we are exporting WITHOUT 'default' KW, in the index.js we need to import using { detructuring } notification
 // { destructuring } allow to 'import' more than one object from the same file. 
 export const pjt =[
-    { 
-    id: 1,
-    title: "Vocabulary Enhancer",
-    description: "An innovative way of learning a foraing language using the 'Vocabolary List Method'. Pick your level and exercice the list for the week, you'll master your new vocabolary i a while!",
-    tech: [ 'react', 'webpack', 'node.js'],
-    tag: [ 'project' ],
-    color: [ 123, 231, 56],
-    gitCode: 'https://github.com/thelore85/project-vocabulary',
-    gitPage: 'https://thelore85.github.io/project-vocabulary/'
-    
-    },
-
     { 
     id: 2,
     title: "Face Recognition",
@@ -151,5 +137,29 @@ export const pjt =[
       gitCode: 'https://github.com/thelore85/component-landing-next',
       gitPage: 'https://component-landing-next.vercel.app/',
     },
+    { 
+      id: 14,
+      title: "Lead Generation Landing",
+      description: "A dynamic landing page integrated with HubSpot's API. Users can access exclusive promo codes in exchange for valid contact information, and receive personalized promo code emails from our backend. Leads are automatically stored in HubSpot, streamlining CRM management.",
+      tech: ['react', 'next.js', 'hubspot', 'nodemailer', 'bootstrap', 'API'],
+      tag: [ 'project'],
+      color: [ 197, 190, 103],
+      gitCode: 'https://github.com/thelore85/project-promo-code',
+      gitPage: 'https://project-promo-code.vercel.app/',
+    },
+    
+  ]
 
-]
+
+
+  // { 
+  //   id: 1,
+  //   title: "Vocabulary Enhancer",
+  //   description: "An innovative way of learning a foraing language using the 'Vocabolary List Method'. Pick your level and exercice the list for the week, you'll master your new vocabolary i a while!",
+  //   tech: [ 'react', 'webpack', 'node.js'],
+  //   tag: [ 'project' ],
+  //   color: [ 123, 231, 56],
+  //   gitCode: 'https://github.com/thelore85/project-vocabulary',
+  //   gitPage: 'https://thelore85.github.io/project-vocabulary/'
+    
+  //   },
