@@ -26,12 +26,10 @@ const Selector = ({ onProjcetSelection, projectSelected }) =>{
 
       <select className="selector" onChange={onProjcetSelection} value={projectSelected}>    
         <option className="category" value="none">Select a category</option>
-        <option className= "category" value="" >All Project</option>
-        <option className= "category" value="project" >Web Application</option>
-        {/* <option className= "category" value="api"> API and Machine Learning</option> */}
-        {/* <option className= "category" value="style">Design System and Typo</option> */}
+        <option className= "category" value="project" >Web Projects</option>
         <option className= "category" value="component">Components</option>
         <option className= "category" value="template">Templates</option>
+        <option className= "category" value="" >All</option>
       </select>
 
     </div>
