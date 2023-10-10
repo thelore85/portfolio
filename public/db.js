@@ -140,7 +140,7 @@ export const pjt =[
     { 
       id: 14,
       title: "Lead Generation Landing",
-      description: "A dynamic landing page integrated with HubSpot's API. Users can access exclusive promo codes in exchange for valid contact information, and receive personalized promo code emails from our backend. Leads are automatically stored in HubSpot, streamlining CRM management.",
+      description: "A dynamic landing page integrated with HubSpot's API. Users can access exclusive promo codes in exchange for valid contact information, and receive personalized promo code emails from our backend. Leads are stored in HubSpot.",
       tech: ['react', 'next.js', 'hubspot', 'nodemailer', 'bootstrap', 'API'],
       tag: [ 'project'],
       color: [ 197, 190, 103],
